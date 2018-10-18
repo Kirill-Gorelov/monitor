@@ -1,0 +1,13 @@
+{
+    "name": "linuxparam/linuxparam",
+    "description": "Php script monitor RAM CPU MEMORY and other param linux server",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gorelov",
+            "email": "gorelov@ener.ru"
+        }
+    ],
+    "require": {}
+}

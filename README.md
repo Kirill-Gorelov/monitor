@@ -3,6 +3,7 @@ Php script monitor RAM CPU MEMORY and other param linux server
 
 # Install  
 `composer require linuxparam/linuxparam`  
+And `/proc/meminfo`, `/proc/loadavg`, `/proc/uptime` chmod 0777
 
 # Use  
 

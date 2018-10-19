@@ -1,10 +1,10 @@
 <?php
-include_once './src/monitor.php';
+include_once './src/linuxparam.php';
 
 echo '<pre>';
-var_dump(Kirill\Monitorlinux\Monitorlinux::uptime());
-var_dump(Kirill\Monitorlinux\Monitorlinux::cpu());
-var_dump(Kirill\Monitorlinux\Monitorlinux::meminfo());
-var_dump(Kirill\Monitorlinux\Monitorlinux::disk());
+var_dump(Linuxparam\Monitorlinux::uptime());
+var_dump(Linuxparam\Monitorlinux::cpu());
+var_dump(Linuxparam\Monitorlinux::meminfo());
+var_dump(Linuxparam\Monitorlinux::disk());
 echo '</pre>';
 ?>

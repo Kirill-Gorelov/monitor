@@ -2,9 +2,9 @@
 include_once './src/monitor.php';
 
 echo '<pre>';
-var_dump(kirill\monitorlinix\Monitorlinux::uptime());
-var_dump(kirill\monitorlinix\Monitorlinux::cpu());
-var_dump(kirill\monitorlinix\Monitorlinux::meminfo());
-var_dump(kirill\monitorlinix\Monitorlinux::disk());
+var_dump(Kirill\Monitorlinux\Monitorlinux::uptime());
+var_dump(Kirill\Monitorlinux\Monitorlinux::cpu());
+var_dump(Kirill\Monitorlinux\Monitorlinux::meminfo());
+var_dump(Kirill\Monitorlinux\Monitorlinux::disk());
 echo '</pre>';
 ?>

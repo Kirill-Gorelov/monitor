@@ -1,5 +1,5 @@
 <?php
-namespace kirill\monitorlinix;
+namespace Kirill\Monitorlinux;
 
 class Monitorlinux{
     public static function uptime(){

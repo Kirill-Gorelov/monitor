@@ -10,9 +10,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "Linuxparam\\": "src"
-        }
+        "classmap": ["src/", "linuxparam.php"]
     },
     "require": {}
 }

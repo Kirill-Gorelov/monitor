@@ -9,5 +9,10 @@
             "email": "gorelov@ener.ru"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "\\": "src/"
+        }
+    },
     "require": {}
 }

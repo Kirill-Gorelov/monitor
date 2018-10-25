@@ -10,7 +10,7 @@
         }
     ],
     "autoload": {
-        "classmap": ["src/", "linuxparam.php"]
+        "classmap": ["src/linuxparam.php"]
     },
     "require": {}
 }
